@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pieces">
+        <item>Chess Piece - King</item>
+        <item>Chess Piece - Queen</item>
+        <item>Chess Piece - Bishop</item>
+        <item>Chess Piece - Knight</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Hi Im the King</item>
+        <item>Hi Im the Queen</item>
+        <item>Hi Im the Bishop</item>
+        <item>Hi Im the Knight</item>
+    </string-array>
+
+</resources>

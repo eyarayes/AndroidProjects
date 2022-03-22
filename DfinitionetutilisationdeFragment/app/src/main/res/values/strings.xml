@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Définition et utilisation de Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="strLogin">Login</string>
+    <string name="strPassword">Password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

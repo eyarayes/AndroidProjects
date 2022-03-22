@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strLogin"
+        android:textSize="40dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@id/tvLogin" />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strPassword"
+        android:layout_below="@+id/txtLogin"
+        android:textSize="40dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@id/tvPassword"/>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sublit"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
