@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">MegaGame V 1.0</string>
+
+    <string name="lblTitle">Enter a value between 1 and 100:</string>
+    <string name="btnCompare">Compare</string>
+
+    <string name="strGreater">Please enter a greater value.</string>
+    <string name="strLower">Please enter a lower value.</string>
+    <string name="strCongratulations">Congratulations</string>
+
+    <string name="strMessage">Congratulations, You win in %d times. Do you want retry?</string>
+    <string name="strYes">Yes</string>
+    <string name="strNo">No</string>
+
+</resources>
